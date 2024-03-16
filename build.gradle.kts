@@ -27,6 +27,8 @@ dependencies {
 	testCompileOnly("org.projectlombok:lombok")
 	testAnnotationProcessor("org.projectlombok:lombok")
 	implementation("nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:3.1.0")
+	implementation ("org.springframework.boot:spring-boot-starter-validation")
+
 }
 
 tasks.withType<Test> {
